@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="all.min.css">
+	<style type="text/css">
+		.mobile-nav { background-color: #f5f5f5; }
+		.mobile-nav a { display: block; }
+
+		@media (min-width: 1024px) {
+			.navbar {
+				transform: matrix(1, 0, 0, 1, 0, 0) !important;
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar maxmd-navbar-responsive ac-txtc">
+		<a href="#!" class="navbar__toggler">Menu</a>
+		<div class="navbar__collapse maxmd-hide">
+			<ul class="navbar__menu maxmd-txt-center">
+				<li class="navbar__item maxmd-bd-top">
+					<a href="#" class="navbar__link">RSS feed</a>
+				</li>
+				<li class="navbar__item maxmd-bd-top">
+					<a href="#" class="navbar__link">Follow me</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar__brand">
+			<a href="" class="navbar__link">Brand</a>
+		</div>
+		<div class="navbar__collapse maxmd-hide">
+			<ul class="navbar__menu navbar__menu--right maxmd-txt-center">
+				<li class="navbar__item active maxmd-bd-top">
+					<a href="#" class="navbar__link">Home</a>
+				</li>
+				<li class="navbar__item maxmd-bd-top">
+					<a href="#" class="navbar__link">Archive</a>
+				</li>
+				<li class="navbar__item maxmd-bd-top">
+					<a href="#" class="navbar__link">About</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>
